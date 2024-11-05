@@ -9,7 +9,7 @@ public class Quartos {
 
     public Quartos(String numero, String tipo, int capacidade, double diaria, String status) {
         this.numero = numero;
-        setTipo(tipo); // Validates and sets the room type
+        setTipo(tipo); 
         this.capacidade = capacidade;
         this.diaria = diaria;
         this.status = status;
